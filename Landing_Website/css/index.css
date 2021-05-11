@@ -1,0 +1,140 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+}
+/* navigation bar and header */
+.bg-dark{
+    background-color: brown !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item{
+    margin:0 15px;
+}
+.align{
+    margin-left:200px;
+}
+.cta{
+    margin-left:450px;
+}
+@media only screen and (max-width:1000px) {
+    .cta{
+        margin:0px;
+    }
+}
+/* section */
+#check-float{
+    margin-top:30px;
+    width:100%;
+    height:500px;
+}
+.left-float{
+    width:35%;
+    margin-left:25px;
+    text-align: left;
+    float:left;
+}
+.right-float{
+    width:50%;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    height:414px;
+    float:right;
+}
+.images{
+    width:100%;
+}
+.heading{
+    color:red;
+}
+/* FAQ container */
+.about-container{
+    width:80%;
+    height:100px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: 30px auto 20px auto;
+    position: relative;
+}
+.about-text{
+    width:90%;
+    float:left;
+    padding:15px 25px 15px 15px;
+}
+.text{
+    color:rgb(97, 193, 231);
+}
+h2{
+    margin-top:30px;
+    text-align: center;
+    
+}
+.right{
+    width:10%;
+    float:right;
+    padding-top:15px;
+}
+.text1{
+    color:blue;
+}
+/* box container */
+.container1{
+    padding:50px 0;
+}
+.box-container{
+    max-width: 1170px;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+}
+.column{
+    margin:0 15px 25px;
+    box-shadow:0 1px 3px rgba(0,0,0,12),0 1px 2px rgba(0,0,0,0.24);
+    background-color: #fff;
+    border-radius: 30px;
+    flex-basis:33%;
+}
+.card{
+    padding:15px 25px;
+
+}
+/* footer part */
+.inner-footer{
+    margin:0;
+    padding:0;
+    background-color:brown;
+}
+.social-links{
+    display:flex;
+}
+.social-links ul{
+    display: flex;
+    margin:auto;
+    width: 300px;
+    height: 45px;
+    padding:20px;
+    align-items: center;
+}
+.social-items a:hover{
+    color:#5db3ad;
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding:10px 20px;
+    font-size:25px;
+    align-items: center;
+}
+.outer-footer{
+    padding:15px;
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+}
